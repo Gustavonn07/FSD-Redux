@@ -147,16 +147,3 @@ npm run build
   ↓
 [shared]   -> código genérico (botões, utils, hooks)
 ```
-
----
-
-## 🧩 Referências
-
-- [Feature-Sliced Design Docs](https://feature-sliced.design/)
-- [Redux Toolkit Docs](https://redux-toolkit.js.org/)
-- [React Architecture Patterns](https://react.dev/learn/thinking-in-react)
-
----
-
-## 📘 Status
-📅 Em aprendizado — objetivo: dominar FSD + Redux para estruturar aplicações React de forma profissional.
