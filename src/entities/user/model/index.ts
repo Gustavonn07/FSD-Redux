@@ -1,6 +1,6 @@
 import type { User, LoginUser } from "./types"
 import { checkAuth, login } from "./thunks"
-import userReducer from "./userSlice"
+import userReducer, { logout, setUser } from "./userSlice"
 
 export type { User, LoginUser }
-export { checkAuth, login, userReducer }
+export { checkAuth, login, userReducer, logout, setUser }
