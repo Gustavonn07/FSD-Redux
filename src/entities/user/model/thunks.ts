@@ -10,7 +10,7 @@ import type { User, LoginUser } from "./types";
 
 export const login = createAsyncThunk<User, LoginUser, { rejectValue: string }>('auth/login', async (payload, thunkAPI) => {
     try {
-        const user = await loginUser({ email: payload.email, password: payload.password })
+        const user = await loginUser({ ...payload })
         setUserToLocalStorage(user)
         return user;
 
