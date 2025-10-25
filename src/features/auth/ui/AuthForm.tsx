@@ -7,8 +7,8 @@ export const AuthForm = () => {
     const { isLoading } = useAuth()
 
     return (
-        <form onSubmit={authForm.handleSubmit}>
-            <fieldset>
+        <form onSubmit={authForm.handleSubmit} className="space-y-4">
+            <fieldset className="space-y-2">
                 <Label htmlFor="email">E-mail</Label>
                 <Input
                     id="email"
@@ -18,7 +18,7 @@ export const AuthForm = () => {
                     disabled={isLoading}
                     />
             </fieldset>
-            <fieldset>
+            <fieldset className="space-y-2">
                 <Label htmlFor="password">Password</Label>
                 <Input
                     id="password"

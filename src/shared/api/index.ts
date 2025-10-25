@@ -1,5 +1,5 @@
 import { axiosInstance } from "./baseApi";
-import type { State } from "./types";
+import type { State, Meta } from "./types";
 
-export type { State };
+export type { State, Meta };
 export { axiosInstance };
